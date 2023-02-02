@@ -1,0 +1,40 @@
+
+.big-container{
+    background-color: #B2B2B2;
+    text-align: center;
+    margin: 5% 38%;
+    height: 500px;
+    position: relative;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+}
+.display{
+    height: 90px;
+    margin: 5% 4%;
+    background-color: white;
+    text-align: right;
+    font-size: 60px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 13% 4%;
+}
+.number{
+    font-size: 30px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+#clear-button{
+    font-size: 30px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: red;
+}
